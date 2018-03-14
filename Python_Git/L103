@@ -1,0 +1,4 @@
+print "Hens" , 25+30/6
+print 100-25*3%5
+print 3+2<5-7
+print 

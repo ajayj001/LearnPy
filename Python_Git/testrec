@@ -1,0 +1,11 @@
+
+
+path = 'C:/Users/ajayj/Google Drive/MasterThesis/Database/'
+import os
+#for filename in os.listdir(os.getcwd()):
+# print filename
+  # do your stuff
+import glob
+for filename in glob.glob(os.path.join(path, '*.*')):
+ print filename
+  # do your stuff
