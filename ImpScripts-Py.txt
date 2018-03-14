@@ -10,3 +10,5 @@ To create copy from another dataframe
 new = old.drop('B', axis=1)
 new = old.filter(['A','B','D'], axis=1)
 new = old[['A', 'C', 'D']].copy()
+
+Creating virtual env :  python3 -m venv ./
