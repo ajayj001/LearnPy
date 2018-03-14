@@ -1,0 +1,12 @@
+--New Installation getting path right
+You can list all environment variables with: Get-ChildItem Env:.
+
+To get the value of a specific variable: $Env:PATH, where PATH is the name of the variable.
+
+To set a variable: [Environment]::SetEnvironmentVariable("PATH", "C:\TestPath", "User"), the first parameter is the name of the variable, the second is the value, the third is the level of.
+
+Pandas:
+To create copy from another dataframe
+new = old.drop('B', axis=1)
+new = old.filter(['A','B','D'], axis=1)
+new = old[['A', 'C', 'D']].copy()
